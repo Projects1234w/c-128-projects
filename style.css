@@ -1,0 +1,52 @@
+body
+{
+    pointer-events:none;
+    background-size: cover;}
+.h-3
+{
+    font-size: 25px;
+    width: 90%;
+    white-space: pre-wrap;
+    box-shadow: 5px 5px 10px red, 10px 10px  10px blue, 15px 15px 10px  green;
+}
+.note
+{
+    color: black;
+    font-size: 15px;
+    font-family:verdana;
+}
+.div_speed_img,
+.div_vol_img
+{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow:5px 5px 18px red;
+}
+.div_speed
+{
+    float: left;
+}
+.div_volume
+{
+    float: right;
+}
+#speed,
+#volume
+{
+    font-size: 19px;
+    margin: 15px;
+}
+.play,
+.stop
+{
+    font-size: 25px;
+    width: 130px;
+    padding-right: 130px;
+    pointer-events:initial;
+}
+canvas{
+    border: 10px groove white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px gray;
+    margin-top: 250px;
+}
